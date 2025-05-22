@@ -1,4 +1,4 @@
 package com.example.bitirmeprojesi.data.entity
 
-class Yemekler {
+class SepetYemeklerCevap {
 }
