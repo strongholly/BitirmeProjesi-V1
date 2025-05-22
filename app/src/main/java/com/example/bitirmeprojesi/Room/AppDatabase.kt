@@ -1,4 +1,4 @@
-package com.example.bitirmeprojesi.data.Room
+package com.example.bitirmeprojesi.Room
 
 import androidx.room.Database
 import androidx.room.RoomDatabase

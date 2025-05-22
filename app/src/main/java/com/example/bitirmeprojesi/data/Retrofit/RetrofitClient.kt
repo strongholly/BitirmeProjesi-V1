@@ -1,4 +1,4 @@
-package com.example.bitirmeprojesi.data.remote
+package com.example.bitirmeprojesi.data.Retrofit
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

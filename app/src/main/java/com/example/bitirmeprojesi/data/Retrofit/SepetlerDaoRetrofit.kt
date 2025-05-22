@@ -1,15 +1,14 @@
-package com.example.bitirmeprojesi.data.remote
+package com.example.bitirmeprojesi.data.Retrofit
 
 import com.example.bitirmeprojesi.data.entity.CRUDCevap
-import com.example.bitirmeprojesi.data.entity.SepetYemek
 import com.example.bitirmeprojesi.data.entity.SepetYemeklerCevap
-import retrofit2.Response
 import retrofit2.http.*
 
 interface SepetlerDaoRetrofit {
 
-    @GET("sepettekiYemekleriGetir.php")
-    suspend fun sepettekiYemekleriYukle(@Query("kullanici_adi") kullaniciAdi: String): SepetYemeklerCevap
+    @POST("sepettekiYemekleriGetir.php")
+    @FormUrlEncoded
+    suspend fun sepettekiYemekleriYukle(@Field("kullanici_adi") kullaniciAdi: String): SepetYemeklerCevap
 
 
     @POST("sepeteYemekEkle.php")

@@ -1,4 +1,4 @@
-package com.example.bitirmeprojesi.data.remote
+package com.example.bitirmeprojesi.data.Retrofit
 
 class ApiUtils {
 companion object{
@@ -10,8 +10,9 @@ companion object{
 
     }
 
-    fun getSepetApiService(): SepetApiService {
-        return RetrofitClient.getClient(BASE_URL).create(SepetApiService::class.java)
+    fun getSepetlerDao() : SepetlerDaoRetrofit {
+
+        return RetrofitClient.getClient(BASE_URL).create(SepetlerDaoRetrofit::class.java)
     }
 
 

@@ -1,3 +1,12 @@
 package com.example.bitirmeprojesi.data.entity
 
-class YemeklerCevap(var yemekler : List<Yemekler> , var success : Int)
+import com.google.gson.annotations.SerializedName
+
+data class YemeklerCevap(
+    @SerializedName("yemekler")
+    val yemekler: List<Yemekler>,
+
+    @SerializedName("success")
+    val success: Int
+)
+
