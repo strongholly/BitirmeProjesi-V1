@@ -34,18 +34,19 @@ A modern food ordering application built using **Kotlin** for Android. This proj
 ## 🖼️ Screenshots
 
 ### 🏠 Home Screen
-![Home](app/com.example.bitirmeprojesi/screenshots/Anasayfa.png)
+![Home](app/src/main/java/com/example/bitirmeprojesi/screnshoots/Anasayfa.png)
 
 ### 🔍 Search Screen
-![Search](app/com.example.bitirmeprojesi/screenshots/Arama.png)
+![Search](app/src/main/java/com/example/bitirmeprojesi/screnshoots/Arama.png)
 
 ### 📋 Detail Screen
-![Detail](app/com.example.bitirmeprojesi/screenshots/Detay.png)
+![Detail](app/src/main/java/com/example/bitirmeprojesi/screnshoots/Detay.png)
 
 ### ❤️ Favorites
-![Favorites](app/com.example.bitirmeprojesi/screenshots/Favoriler.png)
+![Favorites](app/src/main/java/com/example/bitirmeprojesi/screnshoots/Favoriler.png)
 
 ### 🛒 Cart
-![Cart](app/com.example.bitirmeprojesi/screenshots/Sepet.png)
+![Cart](app/src/main/java/com/example/bitirmeprojesi/screnshoots/Sepet.png)
+
 
 ---
